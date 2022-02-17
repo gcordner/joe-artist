@@ -1,0 +1,62 @@
+body#tinymce.wp-editor.content hr:not(.is-style-dots)::before,
+body#tinymce.wp-editor.content hr:not(.is-style-dots)::after {
+    transform: rotate(22.5deg);
+}
+
+body#tinymce.wp-editor.content hr::before {
+    right: calc(50% - 5px);
+}
+
+body#tinymce.wp-editor.content hr::after {
+    left: calc(50% - 5px);
+}
+
+/* Blockquote -------------------------------- */
+body#tinymce.wp-editor.content blockquote {
+    border-width: 0 0.2rem 0 0;
+    padding: 0 2rem 0 0;
+}
+
+/* Lists ------------------------------------- */
+
+body#tinymce.wp-editor.content ul,
+body#tinymce.wp-editor.content ol {
+    margin: 0 3rem 2rem 0;
+    padding-right: 0;
+}
+
+body#tinymce.wp-editor.content .alignleft {
+    /*rtl:ignore*/
+    float: right;
+    margin-left: 25px;
+}
+
+body#tinymce.wp-editor.content .alignright {
+    /*rtl:ignore*/
+    float: left;
+    margin-right: 25px;
+}
+
+/* Tables ------------------------------------ */
+body#tinymce.wp-editor.content table th,
+body#tinymce.wp-editor.content table td {
+    border-left: 1px solid #ededed;
+}
+
+body#tinymce.wp-editor.content table td {
+    text-align: right;
+}
+
+/* BUTTON STYLE: OUTLINE */
+body#tinymce.wp-editor.content .is-style-outline .wp-block-button__link {
+    padding: calc(1.1em - 2px) calc(1.44em - 2px);
+}
+
+/* BLOCK: GALLERY */
+body#tinymce.wp-editor.content ul.wp-block-gallery {
+    margin-right: 0;
+}
+
+body#tinymce.wp-editor.content ul.wp-block-gallery li {
+    margin-right: 0;
+}

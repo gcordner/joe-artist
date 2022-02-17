@@ -1,0 +1,175 @@
+/* Block Typography Classes ------------------ */
+
+.has-text-align-left {
+    /*rtl:ignore*/
+    text-align: right;
+}
+
+.has-text-align-right {
+    text-align: left;
+}
+
+/* Block: Shared Widget Styles --------------- */
+
+.wp-block-archives,
+.wp-block-categories,
+.wp-block-latest-posts,
+.wp-block-latest-comments {
+    margin-right: 0;
+}
+
+.entry-content .wp-block-archives > li,
+.entry-content .wp-block-categories > li,
+.entry-content .wp-block-latest-posts > li,
+.entry-content .wp-block-latest-comment > li {
+    margin-right: 0;
+}
+
+/* Block: Button ----------------------------- */
+
+.wp-block-button,
+.wp-block-buttons .wp-block-button {
+    margin: 0 0 2rem 0;
+}
+
+.is-style-outline .wp-block-button__link {
+    padding: calc(1.1em - 0.2rem) calc(1.44em - 0.2rem);
+}
+
+/* Block: File ------------------------------- */
+.wp-block-file a:not(.wp-block-file__button):not(:last-child) {
+    margin-left: 1rem;
+}
+
+/* Block: Gallery ---------------------------- */
+.wp-block-gallery ul {
+    margin: 0 0 -1.6rem 0;
+}
+
+.blocks-gallery-grid .blocks-gallery-image figcaption,
+.blocks-gallery-grid .blocks-gallery-item figcaption,
+.wp-block-gallery .blocks-gallery-image figcaption,
+.wp-block-gallery .blocks-gallery-item figcaption {
+    padding: 2rem 1rem 1.5rem;
+}
+
+.wp-block-pullquote::before {
+    content: "\201D";
+    right: 0;
+}
+
+/* Block: Pullquote -------------------------- */
+
+.wp-block-pullquote::before {
+    right: 0;
+    left: auto;
+}
+
+.wp-block-pullquote.alignleft {
+    text-align: right;
+}
+
+.wp-block-pullquote.alignright {
+    text-align: right;
+}
+
+.wp-block-pullquote.alignleft,
+.wp-block-pullquote.alignright {
+    padding-right: 3rem;
+}
+
+.wp-block-pullquote.alignleft::before {
+    margin-right: 0;
+}
+
+.wp-block-pullquote.alignright::before {
+    margin-left: 0;
+}
+
+/* STYLE: SOLID BACKGROUND COLOR */
+.wp-block-pullquote.is-style-solid-color.alignleft::before {
+    right: 2rem;
+}
+
+.wp-block-pullquote.is-style-solid-color.alignright::before {
+    right: auto;
+    left: 2rem;
+}
+
+/* Block: Separator  ------------------------- */
+
+/* STYLE: DOTS */
+
+.wp-block-separator.is-style-dots::before {
+    padding-right: 1em;
+}
+
+/* Block: Quote ------------------------------ */
+.wp-block-quote[style="text-align:left"] {
+
+    /*rtl:begin:ignore*/
+    border-width: 0 0 0 0.2rem;
+    padding: 0 0 0 2rem;
+
+    /*rtl:end:ignore*/
+}
+
+/* Block: Widget Latest Comments ------------- */
+.has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-excerpt,
+.has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta {
+    margin-right: 5.5rem;
+}
+
+.wp-block-latest-comments__comment-excerpt p {
+    margin: 0.9rem 0 2rem 0;
+}
+
+@media (max-width: 479px) {
+
+    /* LISTS */
+    ul,
+    ol {
+        margin: 0 2rem 3rem 0;
+    }
+
+    li {
+        margin: 0.5rem 1rem 0 0;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    /* BLOCK: IMAGE */
+    .wp-block-image .alignleft {
+        float: right;
+        margin: 0.313rem -5rem 2rem 2rem;
+    }
+
+    .wp-block-image .alignright {
+        float: left;
+        margin: 0.313rem 2rem 2rem -5rem;
+    }
+
+    /* PULL QUOTES */
+    .wp-block-pullquote.alignleft {
+        float: right;
+        margin: 0.3rem -5rem 2rem 2rem;
+    }
+
+    .wp-block-pullquote.alignright {
+        float: left;
+        margin: 0.3rem 2rem 2rem -5rem;
+    }
+}
+
+@media (min-width: 1220px) {
+
+    /* BLOCK: PULLQUOTE */
+    .wp-block-pullquote.alignleft {
+        margin: 0.3rem -6rem 2rem 3rem;
+    }
+
+    .wp-block-pullquote.alignright {
+        margin: 0.3rem 3rem 2rem -6rem;
+    }
+}

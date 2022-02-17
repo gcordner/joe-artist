@@ -1,0 +1,1177 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Prologe Lite\n"
+"POT-Creation-Date: 2020-08-01 20:32-0700\n"
+"PO-Revision-Date: 2020-08-01 20:32-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:14
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"The page you were looking for could not be found. It might have been "
+"removed, renamed, or did not exist in the first place."
+msgstr ""
+
+#: 404.php:23
+msgid "404 not found"
+msgstr ""
+
+#: classes/class-prologe-customize.php:25
+msgid "Main Body"
+msgstr ""
+
+#: classes/class-prologe-customize.php:32
+msgid "Prologe Theme Options"
+msgstr ""
+
+#: classes/class-prologe-customize.php:38
+msgid "Colours"
+msgstr ""
+
+#: classes/class-prologe-customize.php:43
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: classes/class-prologe-customize.php:50
+msgid "Basic Settings"
+msgstr ""
+
+#: classes/class-prologe-customize.php:57
+msgid "Blog Settings"
+msgstr ""
+
+#: classes/class-prologe-customize.php:64
+msgid "Post Settings"
+msgstr ""
+
+#: classes/class-prologe-customize.php:71
+msgid "Page Settings"
+msgstr ""
+
+#: classes/class-prologe-customize.php:78
+msgid "Cover Template Settings "
+msgstr ""
+
+#: classes/class-prologe-customize.php:85
+msgid "CTA Template Settings "
+msgstr ""
+
+#: classes/class-prologe-customize.php:92
+msgid "Label Settings "
+msgstr ""
+
+#: classes/class-prologe-customize.php:99
+msgid "Content Colors"
+msgstr ""
+
+#: classes/class-prologe-customize.php:106
+msgid "Cover Element Colors"
+msgstr ""
+
+#: classes/class-prologe-customize.php:113
+msgid "Navigation Colors"
+msgstr ""
+
+#: classes/class-prologe-customize.php:120
+msgid "Widget Colors"
+msgstr ""
+
+#: classes/class-prologe-customize.php:127
+msgid "Other Colors"
+msgstr ""
+
+#: classes/class-prologe-customize.php:134
+msgid "Form Colors"
+msgstr ""
+
+#: classes/class-prologe-walker-comment.php:53
+msgid "says:"
+msgstr ""
+
+#: classes/class-prologe-walker-comment.php:66
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: classes/class-prologe-walker-comment.php:74
+msgid "Edit"
+msgstr ""
+
+#: classes/class-prologe-walker-comment.php:89
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: classes/class-prologe-walker-comment.php:124
+msgid "By Post Author"
+msgstr ""
+
+#. translators: %d: ID of a post
+#: classes/class-prologe-walker-page.php:79
+#, php-format
+msgid "#%d (no title)"
+msgstr ""
+
+#: classes/class-prologe-walker-page.php:131 inc/template-tags.php:533
+msgid "Show sub menu"
+msgstr ""
+
+#: comments.php:30
+msgid "Leave a comment"
+msgstr ""
+
+#. translators: %s: post title
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One comment on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "%1$s comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:70
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:71
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:84
+msgid "Comments"
+msgstr ""
+
+#: comments.php:123
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:21
+msgid "Copyright"
+msgstr ""
+
+#. translators: Copyright date format, see https://secure.php.net/date
+#: footer.php:25
+msgctxt "copyright date format"
+msgid "Y"
+msgstr ""
+
+#: footer.php:28
+msgid "All rights reserved."
+msgstr ""
+
+#. translators: %s: HTML character for up arrow
+#: footer.php:38
+#, php-format
+msgid "To the top %s"
+msgstr ""
+
+#. translators: %s: HTML character for up arrow
+#: footer.php:44
+#, php-format
+msgid "Up %s"
+msgstr ""
+
+#: functions.php:254
+msgid "Desktop Horizontal Menu"
+msgstr ""
+
+#: functions.php:255
+msgid "Desktop Expanded Menu"
+msgstr ""
+
+#: functions.php:256
+msgid "Mobile Menu"
+msgstr ""
+
+#: functions.php:257
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:258
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:282
+msgid "Skip to the content"
+msgstr ""
+
+#: functions.php:358
+msgid "Black"
+msgstr ""
+
+#: functions.php:363
+msgid "Teal"
+msgstr ""
+
+#: functions.php:368
+msgid "Red"
+msgstr ""
+
+#: functions.php:373
+msgid "Grey"
+msgstr ""
+
+#: functions.php:378
+msgid "Taupe"
+msgstr ""
+
+#: functions.php:383
+msgid "Beige"
+msgstr ""
+
+#: functions.php:388
+msgid "White"
+msgstr ""
+
+#: functions.php:400
+msgid "Black to Grey"
+msgstr ""
+
+#: functions.php:405
+msgid "Red to Light Red"
+msgstr ""
+
+#: functions.php:410
+msgid "Teal to Light Teal"
+msgstr ""
+
+#: functions.php:415
+msgid "Taupe to Light Taupe"
+msgstr ""
+
+#: functions.php:427
+msgctxt "Name of the small font size in the block editor"
+msgid "Small"
+msgstr ""
+
+#: functions.php:428
+msgctxt "Short name of the small font size in the block editor."
+msgid "S"
+msgstr ""
+
+#: functions.php:433
+msgctxt "Name of the regular font size in the block editor"
+msgid "Regular"
+msgstr ""
+
+#: functions.php:434
+msgctxt "Short name of the regular font size in the block editor."
+msgid "R"
+msgstr ""
+
+#: functions.php:439
+msgctxt "Name of the medium font size in the block editor"
+msgid "Medium"
+msgstr ""
+
+#: functions.php:440
+msgctxt "Short name of the medium font size in the block editor."
+msgid "M"
+msgstr ""
+
+#: functions.php:445
+msgctxt "Name of the large font size in the block editor"
+msgid "Large"
+msgstr ""
+
+#: functions.php:446
+msgctxt "Short name of the large font size in the block editor."
+msgid "L"
+msgstr ""
+
+#: functions.php:451
+msgctxt "Name of the larger font size in the block editor"
+msgid "Larger"
+msgstr ""
+
+#: functions.php:452
+msgctxt "Short name of the larger font size in the block editor."
+msgid "XL"
+msgstr ""
+
+#: header.php:52 header.php:158
+msgid "Search"
+msgstr ""
+
+#: header.php:77 header.php:138
+msgid "Menu"
+msgstr ""
+
+#: header.php:89
+msgid "Horizontal"
+msgstr ""
+
+#: inc/custom-header.php:13
+msgid "Default Header Image"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:81
+msgid "Prologe - Premium"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:82
+msgid ""
+"Save $10 (Limited Time Offer!) if you purchase the Pro version with this "
+"discount code on checkout:"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:83
+msgid "PROLOGE10"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:84
+msgid "Pro Features:"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:86
+msgid "&bull; 6 Blog Styles"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:87
+msgid "&bull; 8 Dynamic Sidebar Positions"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:88
+msgid "&bull; 3 Full Post Layouts"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:89
+msgid "&bull; 5 Menu Locations"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:90
+msgid "&bull; Option to Disable Gutenberg Styles"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:91
+msgid "&bull; Additional Page Templates"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:92
+msgid "&bull; Thumbnail Creation for the Blogs"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:93
+msgid "&bull; Related Posts w/thumbnails"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:94
+msgid "&bull; Custom Blog Intro Heading"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:95
+msgid "&bull; Custom Comments Widget w/Avatar"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:96
+msgid "&bull; Feature a Post on the Blog"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:97
+msgid "&bull; An About Me Widget"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:98
+msgid "&bull; A Social Links Widget"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:99
+msgid "&bull; Customize the Read More Button Text"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:100
+msgid "&bull; Custom Styled Archive Titles"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:101
+msgid "&bull; We Made the Customizer Look Better"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:102
+msgid "&bull; Show or Hide Various Elements"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:103
+msgid "&bull; Priority Support"
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:104
+msgid "&bull; Plus more..."
+msgstr ""
+
+#: inc/customizer/controls/custom-controls.php:107
+msgid "Save $10 Now"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:24
+msgid "Show search in header"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:38
+msgid "Hide Front Page Template Title"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:51
+msgid "Hide Edit Links on Pages &amp; Posts"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:52
+msgid "Show or hide the front-end EDIT link for posts and pages."
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:24
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:29
+msgid "Centered without Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:30
+msgid "Classic with Left Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:31
+msgid "Classic with Right Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:42
+msgid "Blog Summary Type"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:43
+msgid ""
+"This will let you choose between a full post with an inserted Read More "
+"button or a post summary excerpt."
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:48
+msgid "Full Content"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:49
+msgid "Post Excerpt"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:60
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:77
+msgid "Blog Show or Hide Items"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:94
+msgid "Hide the featured image caption"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:107
+msgid "Hide Post Summary Meta Info"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:120
+msgid "Hide Post Summary Comment Count"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:26
+msgid "Body Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:38
+msgid "Body Text Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:50
+msgid "Site Header Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:62
+msgid "Page Title Header Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:74
+msgid "Archive Header Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:86
+msgid "Footer Bottom Area Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:103
+msgid "Content Area Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:115
+msgid "Headings and Titles"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:127
+msgid "Headings &amp; Titles Hover Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:139
+msgid "Page Titles"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:151
+msgid "Page Intro"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:163
+msgid "Archive Prefix Heading Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:176
+msgid "Archive Header Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:188
+msgid "Links"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:200
+msgid "Content Links"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:212
+msgid "Bottom Widget Area Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:224
+msgid "Bottom Widget List Links"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:236
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:252
+msgid "Cover Photo Text Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:264
+msgid "Cover Photo Category Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:276
+msgid "Cover Photo Category Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:288
+msgid "Cover Photo Category Hover Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:304
+msgid "Widget Titles"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:316
+msgid "Tag Cloud Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:328
+msgid "Tag Cloud Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:340
+msgid "Tag Cloud Hover Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:352
+msgid "Tag Cloud Hover Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:369
+msgid "Borders and Line  Colours"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:381
+msgid "Bottom Area Widget Borders &amp; Lines"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:393
+msgid "Dropcap - Block Editor"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:405
+msgid "Quote Elements"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:419
+msgid "Table Header Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:431
+msgid "Table Header Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:443
+msgid "Image Captions"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:456
+msgid "Selected Text Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:468
+msgid "Selected Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:480
+msgid "Block Gallery Overlay Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:492
+msgid "Block Gallery Caption Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:505
+msgid "Block Gallery Overlay Opacity"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:506
+msgid ""
+"Make sure that the contrast is high enough so that the caption is readable."
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:527
+msgid "Mobile Menu Toggle"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:539
+msgid "Mobile Menu Links"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:551
+msgid "Main Menu Links"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:563
+msgid "Main SubMenu Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:575
+msgid "Social Menu Icon Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:587
+msgid "Social Menu Icon"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:599
+msgid "Footer Menu Links"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:611
+msgid "Footer Menu Hover Links"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:623
+msgid "Scroll to Top"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:640
+msgid "Button Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:652
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:664
+msgid "Button Hover Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:676
+msgid "Button Hover Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:688
+msgid "Input Borders"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:700
+msgid "Input Background"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:712
+msgid "Input Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cover.php:20
+msgid "Cover Photo Settings"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cover.php:34
+msgid "Background Image Style"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cover.php:35
+msgid ""
+"Fixed creates a parallax effect when the visitor scrolls, or you can have it "
+"scroll with the page."
+msgstr ""
+
+#: inc/customizer/sections/customizer-cover.php:40
+msgid "Fixed Parallax Effect"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cover.php:41
+msgid "Scroll with the Page"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cover.php:53
+msgid "Background Image Style for Mobile"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cover.php:54
+msgid ""
+"Position your image when viewing in a mobile device when subject matter is "
+"off to the left, right, or center. "
+msgstr ""
+
+#: inc/customizer/sections/customizer-cover.php:59
+msgid "Position on Left"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cover.php:60
+msgid "Position in Center"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cover.php:61
+msgid "Position on Right"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cover.php:73
+msgid "Overlay Background Color"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cover.php:74
+msgid "The color used for the overlay. Defaults to the accent color."
+msgstr ""
+
+#: inc/customizer/sections/customizer-cover.php:86
+msgid "Overlay Opacity"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cover.php:87
+msgid ""
+"Make sure that the contrast is high enough so that the text is readable."
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:21
+msgid "Call To Action Settings - Front Page"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:35
+msgid "CTA Heading Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:48
+msgid "CTA Intro Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:61
+msgid "CTA Button 1 Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:73
+msgid "CTA Button 1 Link"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:86
+msgid "CTA Button 2 Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:98
+msgid "CTA Button 2 Link"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:111
+msgid "CTA Heading Color"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:112
+msgid ""
+"The color used for the call-to-action heading in the front page cover photo "
+"area."
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:124
+msgid "CTA Intro Color"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:125
+msgid ""
+"The color used for the call-to-action intro in the front page cover photo "
+"area."
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:137
+msgid "CTA Button Text Color"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:138
+msgid ""
+"The color used for the call-to-action button text in the front page cover "
+"photo area."
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:150
+msgid "CTA Button Text Hover Color"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:151
+msgid ""
+"The hover color used for the call-to-action button text in the front page "
+"cover photo area."
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:163
+msgid "CTA Button Background Color"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:164
+msgid ""
+"The background or border color used for the call-to-action button text in "
+"the front page cover photo area."
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:176
+msgid "CTA Button Background Hover Color"
+msgstr ""
+
+#: inc/customizer/sections/customizer-cta.php:177
+msgid ""
+"The background or border hover color used for the call-to-action button text "
+"in the front page cover photo area."
+msgstr ""
+
+#: inc/customizer/sections/customizer-identity.php:21
+msgid "Hide Site Tagline"
+msgstr ""
+
+#: inc/customizer/sections/customizer-identity.php:34
+msgid "Site Title Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-identity.php:46
+msgid "Site Tagline Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-labels.php:17
+msgid "Copyright Name"
+msgstr ""
+
+#: inc/customizer/sections/customizer-labels.php:24 inc/template-tags.php:155
+#: inc/template-tags.php:168
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer/sections/customizer-labels.php:30
+msgid "Read More Text"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:24
+msgid "Full Post Layout"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:25
+msgid "This will let you choose your full post layout."
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:29
+msgid "Post With Right Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:30
+msgid "Post With Left Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:31
+msgid "Post Full Width No Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:41
+msgid "Post Show or Hide Items"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:55
+msgid "Hide Full Post Meta Info"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:68
+msgid "Hide Post Categories"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:81
+msgid "Hide Tags"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:94
+msgid "Hide Author Bio Section"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:107
+msgid "Hide previous/next post navigation"
+msgstr ""
+
+#: inc/customizer/sections/customizer-upgrade.php:21
+msgid "Get The Pro Version:"
+msgstr ""
+
+#: inc/sidebars.php:14
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:16
+msgid "Sidebar for your blog and archives."
+msgstr ""
+
+#: inc/sidebars.php:23
+msgid "Page Right Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:25
+msgid "Right sidebar for your pages."
+msgstr ""
+
+#: inc/sidebars.php:32
+msgid "Page Left Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:34
+msgid "Left sidebar for your pages."
+msgstr ""
+
+#: inc/sidebars.php:42
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/sidebars.php:44
+msgid ""
+"For breadcrumb navigation when using a plugin having a widget or shortcode."
+msgstr ""
+
+#: inc/sidebars.php:52
+msgid "Bottom 1"
+msgstr ""
+
+#: inc/sidebars.php:54
+msgid "First sidebar of the bottom group located above the copyright area."
+msgstr ""
+
+#: inc/sidebars.php:62
+msgid "Bottom 2"
+msgstr ""
+
+#: inc/sidebars.php:64
+msgid "Second sidebar of the bottom group located above the copyright area."
+msgstr ""
+
+#: inc/sidebars.php:72
+msgid "Bottom 3"
+msgstr ""
+
+#: inc/sidebars.php:74
+msgid "Third sidebar of the bottom group located above the copyright area."
+msgstr ""
+
+#: inc/sidebars.php:82
+msgid "Bottom 4"
+msgstr ""
+
+#: inc/sidebars.php:84
+msgid "Fourth sidebar of the bottom group located above the copyright area."
+msgstr ""
+
+#: inc/template-tags.php:321
+msgid "Post author"
+msgstr ""
+
+#. translators: %s: Author name
+#. translators: %s: Author name.
+#: inc/template-tags.php:328 template-parts/entry-author-bio.php:17
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: inc/template-tags.php:345
+msgid "Post date"
+msgstr ""
+
+#: inc/template-tags.php:365 template-parts/content-cover.php:59
+#: template-parts/entry-header.php:31
+msgid "Categories"
+msgstr ""
+
+#: inc/template-tags.php:369
+msgctxt "A string that is output before one or more categories"
+msgid "In"
+msgstr ""
+
+#: inc/template-tags.php:383
+msgid "Tags"
+msgstr ""
+
+#: inc/template-tags.php:422
+msgid "Sticky post"
+msgstr ""
+
+#: search.php:22
+msgid "Search:"
+msgstr ""
+
+#: search.php:30
+#, php-format
+msgid "We found %s result for your search."
+msgid_plural "We found %s results for your search."
+msgstr[0] ""
+msgstr[1] ""
+
+#: search.php:38
+msgid ""
+"We could not find any results for your search. You can give it another try "
+"through the search form below."
+msgstr ""
+
+#: search.php:81
+msgid "search again"
+msgstr ""
+
+#: searchform.php:20 template-parts/modal-search.php:17
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:21
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:23
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: template-parts/content-cover.php:133 template-parts/content-single.php:33
+#: template-parts/content-single.php:60 template-parts/content-single.php:87
+msgid "Edit Post"
+msgstr ""
+
+#: template-parts/content-cover.php:137 template-parts/nav-multipage.php:13
+msgid "Page"
+msgstr ""
+
+#: template-parts/content-cover.php:137 template-parts/nav-multipage.php:13
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-frontpage.php:103 template-parts/content-page.php:31
+#: template-parts/content-page.php:51 template-parts/content-page.php:70
+#: template-parts/content-page.php:87
+msgid "Edit Page"
+msgstr ""
+
+#: template-parts/entry-author-bio.php:26
+msgid "View Archive <span aria-hidden=\"true\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/footer-menus.php:30
+msgid "Social links"
+msgstr ""
+
+#: template-parts/footer-menus.php:60
+msgid "Footer"
+msgstr ""
+
+#: template-parts/modal-menu.php:18
+msgid "Close Menu"
+msgstr ""
+
+#: template-parts/modal-menu.php:45
+msgid "Expanded"
+msgstr ""
+
+#: template-parts/modal-menu.php:70
+msgid "Mobile"
+msgstr ""
+
+#: template-parts/modal-menu.php:114
+msgid "Expanded Social links"
+msgstr ""
+
+#: template-parts/modal-search.php:23
+msgid "Close search"
+msgstr ""
+
+#: template-parts/navigation.php:22
+msgid "Post"
+msgstr ""
+
+#: template-parts/pagination.php:16
+msgid "Newer Posts"
+msgstr ""
+
+#: template-parts/pagination.php:17
+msgid "Newer <span class=\"nav-short\">Posts</span>"
+msgstr ""
+
+#: template-parts/pagination.php:21
+msgid "Older <span class=\"nav-short\">Posts</span>"
+msgstr ""
+
+#: template-parts/pagination.php:22
+msgid "Older Posts"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Prologe Lite"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.roughpixels.com/free-themes/prologe-lite/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"We took the Twenty Twenty theme to a whole new level by redesigning it for "
+"bloggers that want more flexibility, greater control, and refined style. You "
+"will discover that we kept many theme features of 2020 while performing "
+"enhancements and of course, adding features. We removed preset colours to "
+"give you a large array of colour options to colourize individual page "
+"elements to allow unlimited colour combinations. You also get 3 blog styled "
+"layouts instead of 1, the bonus of having more sidebars, including a left or "
+"right sidebar for your blog pages, and much more!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rough Pixels"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.roughpixels.com"
+msgstr ""

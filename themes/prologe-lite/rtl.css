@@ -1,0 +1,1250 @@
+/*
+Theme Name: Prologe Lite
+
+Adding support for languages written in a Right To Left (RTL) direction is easy,
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body { 
+   direction: rtl; 
+   unicode-bidi: embed; 
+}
+
+/*===============================
+Base
+================================*/
+
+body {
+    text-align: right;
+}
+
+/* Clearing ---------------------------------- */
+
+.group::after,
+.entry-content::after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+/* Screen Reader Text ------------------------ */
+
+.screen-reader-text {
+    margin: -1px;
+}
+
+.screen-reader-text:focus {
+    left: 5px;
+    padding: 15px 23px 14px;
+}
+
+
+/* Skip Link --------------------------------- */
+
+.skip-link {
+    right: -9999rem;
+}
+
+.skip-link:focus {
+    right: 6px;
+    padding: 15px 23px 14px;
+    left: auto;
+}
+
+/*===============================
+Typography
+================================*/
+p {
+    line-height: 1.6;
+    margin: 0 0 2rem 0;
+}
+
+address {
+    margin: 0 0 2rem 0;
+}
+
+/*===============================
+Page Elements
+================================*/
+
+/* Lists ------------------------------------- */
+
+ul,
+ol {
+    margin: 0 3rem 3rem 0;
+}
+
+li {
+    margin: 0.5rem 2rem 0 0;
+}
+
+li > ul,
+li > ol {
+    margin: 1rem 2rem 0 0;
+}
+
+/* Quotes ------------------------------------ */
+blockquote {
+	border-width: 0 0.2rem 0 0;
+    margin: 3rem 0;
+    padding: 0 2rem 0 0;
+}
+
+cite:before {
+    content: "\2014";
+}
+
+/* Code -------------------------------------- */
+code,
+kbd,
+pre,
+samp {
+    padding: 0.4rem 0.6rem;
+}
+
+/*===============================
+Media
+================================*/
+
+/* Galleries ----------------------------------- */
+.gallery {
+    margin: 3em -0.8em 3em 0;
+}
+
+.gallery-item {
+    margin: 0.8em 0;
+    padding: 0 0.8em;
+}
+
+.gallery-item img {
+    margin: 0 auto;
+}
+
+/*===============================
+Social Icons
+================================*/
+
+ul.social-icons {
+    margin: -0.9rem -0.9rem 0 0;
+}
+
+ul.social-icons li {
+    margin: 0.9rem 0.9rem 0 0;
+}
+
+/*===============================
+Header
+================================*/
+
+/* Layout ------------------------------------ */
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+
+.screen-width {
+    right: calc(50% - 50vw);
+}
+
+/*===============================
+Header Titles
+================================*/
+
+body:not(.enable-search-modal) .header-titles-wrapper {
+    justify-content: flex-start;
+    padding-right: 0;
+    text-align: right;
+}
+
+/* Overlay Header ---------------------------- */
+
+.overlay-header #site-header {
+    margin: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+/* Header Toggles ---------------------------- */
+.header-inner .toggle {
+    align-items: center;
+    padding: 0 2rem;
+}
+
+/* Search Toggle ----------------------------- */
+.search-toggle {
+    bottom: 0;
+    right: 0;
+    top: 0;
+}
+
+/* Navigation Toggle ------------------------- */
+.nav-toggle {
+    bottom: 0;
+    left: 0;
+	right: auto;
+    top: 0;
+}
+
+/* Primary Menu ---------------------------- */
+
+ul.primary-menu {
+    justify-content: flex-end;
+    margin: -0.8rem -1.6rem 0 0;
+}
+
+.primary-menu .icon::before,
+.primary-menu .icon::after {
+    right: 0;
+}
+
+.primary-menu > li {
+    margin: 0.8rem 1.6rem 0 0;
+}
+
+.primary-menu > li.menu-item-has-children > a {
+    padding-left: 1.25rem;
+	padding-right: 0;
+}
+
+.primary-menu > li > .icon {
+    left: -0.5rem;
+	    right: auto;
+}
+.primary-menu .icon {
+    transform: rotate(45deg);
+}
+
+/* Submenu ------------------------------- */
+.primary-menu ul {
+    left: 9999rem;
+	right: auto;
+    text-align: right;
+    transition: opacity 0.15s linear, transform 0.15s linear, left 0s 0.15s;
+    transform: translateY(0.6rem);
+}
+
+.primary-menu li.menu-item-has-children:hover > ul,
+.primary-menu li.menu-item-has-children:focus > ul,
+.primary-menu li.menu-item-has-children.focus > ul {
+    left: 0;
+    transform: translateY(0);
+    transition: opacity 0.15s linear, transform 0.15s linear;
+}
+
+.primary-menu ul::before {
+    right: 0;
+    left: 0;
+}
+
+.primary-menu ul::after {
+    left: 1.8rem;
+}
+
+.primary-menu ul a {
+    padding: 0.5rem 2rem;
+}
+
+.primary-menu ul li.menu-item-has-children > a {
+    padding-left: 3.5rem;
+}
+
+.primary-menu ul li.menu-item-has-children .icon {
+    left: 1.5rem;
+}
+
+/* Submenus - Deeper Levels--------------------- */
+.primary-menu ul ul {
+    top: -1rem;
+}
+
+.primary-menu ul li.menu-item-has-children:hover > ul,
+.primary-menu ul li.menu-item-has-children:focus > ul,
+.primary-menu ul li.menu-item-has-children.focus > ul {
+    left: calc(100% + 2rem);
+}
+
+.primary-menu ul ul::before {
+    bottom: 0;
+    right: auto;
+    left: -2rem;
+    top: 0;
+}
+
+.primary-menu ul ul::after {
+    /*rtl:ignore*/
+    border-right-color: #000;
+    bottom: auto;
+    left: -1.6rem;
+    top: 2rem;
+}
+
+/*
+ * Enable nav submenu expansion with tapping on arrows on large-viewport
+ * touch interfaces (e.g. tablets or laptops with touch screens).
+ * These rules are supported by all browsers (>IE11) and when JS is disabled.
+ */
+@media (any-pointer: coarse) {
+
+    .primary-menu > li.menu-item-has-children > a {
+        padding-left: 0;
+        margin-left: 2rem;
+    }
+
+    .primary-menu ul li.menu-item-has-children > a {
+        margin-left: 4.5rem;
+        padding-left: 0;
+    }
+
+}
+
+/* Repeat previous rules for IE11 (when JS enabled for polyfill). */
+body.touch-enabled .primary-menu > li.menu-item-has-children > a {
+    padding-left: 0;
+    margin-left: 2rem;
+}
+
+body.touch-enabled .primary-menu ul li.menu-item-has-children > a {
+    margin-left: 4.5rem;
+    padding-left: 0;
+}
+
+/*===============================
+Menu Modal
+================================*/
+.menu-modal {
+    overflow-y: auto;
+    overflow-x: hidden;
+    bottom: 0;
+    right: -99999rem;
+    left: 99999rem;
+    top: 0;
+    transition: opacity 0.25s ease-in, right 0s 0.25s, left 0s 0.25s;
+}
+
+.menu-modal.active {
+    right: 0;
+    left: 0;
+}
+
+button.close-nav-toggle {
+    justify-content: flex-end;
+    padding: 1.5rem 0;
+}
+button.close-nav-toggle .toggle-text {
+    margin-left: 1.6rem;
+}
+.menu-modal .menu-top {
+    flex-shrink: 0;
+}
+
+
+/* Modal Main Menu --------------------------------- */
+
+
+.modal-menu li {
+    justify-content: flex-start;
+}
+
+.modal-menu a {
+    display: block;
+    padding: 1.125rem 1rem;
+}
+
+/* Indent the submenu items */
+.modal-menu .sub-menu a {
+    padding: 1.125rem 1.5rem;
+}
+
+button.sub-menu-toggle {
+    border-right: 0.1rem solid #dedfdf;
+    flex-shrink: 0;
+}
+
+.modal-menu ul li {
+    border-right-width: 1rem;
+    border-right-width: 0;
+}
+
+/* Main menu animation ----------------------- */
+
+.menu-wrapper.is-toggling .menu-item {
+    top: 0;
+    right: 0;
+    margin: 0;
+}
+
+.menu-wrapper.is-toggling .toggling-target {
+    top: 0;
+    right: 0;
+}
+
+/* Menu Bottom ------------------------------- */
+.menu-bottom {
+    flex-shrink: 0;
+    padding: 4rem 0;
+}
+
+/*===============================
+Search Modal
+================================*/
+.search-modal {
+    bottom: 0;
+    right: -9999rem;
+    top: 0;
+    transition: opacity 0.2s linear, right 0s 0.2s linear;
+}
+
+.search-modal-inner {
+    transform: translateY(-100%);
+    transition: transform 0.15s linear, box-shadow 0.15s linear;
+}
+
+.search-modal.active {
+    right: 0;
+}
+
+.search-modal.active .search-modal-inner {
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.08);
+    transform: translateY(0);
+    transition: transform 0.25s ease-in-out, box-shadow 0.1s 0.25s linear;
+}
+
+button.search-untoggle {
+    margin-left: -2.5rem;
+    padding: 0 2.5rem;
+}
+
+/* Modal Search Form ------------------------- */
+
+.search-modal .search-field {
+    margin: 0 -2rem 0 0;
+    padding: 0 2rem 0 0;
+}
+
+.search-modal .search-submit {
+    left: -9999rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search-modal .search-submit:focus {
+    left: 0;
+}
+
+.cover-header-inner-wrapper {
+    justify-content: flex-end;
+}
+
+.cover-header-inner {
+    padding: 10rem 0 5rem 0;
+}
+
+.cover-color-overlay,
+.cover-color-overlay::before {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+/*===============================
+Skip to Content
+================================*/
+
+.to-the-content-wrapper {
+    right: 0;
+    left: 0;
+}
+
+
+/*===============================
+Front Page CTA
+================================*/
+#frontpage-cta {
+    text-align: right;
+}
+
+#frontpage-cta-heading {
+    margin: 0 0 2rem;
+}
+
+#frontpage-cta-intro {
+    margin-bottom: 3rem;
+}
+
+/*===============================
+Tables
+================================*/
+table td {
+    text-align: right;
+}
+
+/*===============================
+Alignments
+================================*/
+.alignnone,
+.aligncenter,
+.alignleft,
+.alignright {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-bottom: 3rem;
+    margin-right: auto;
+}
+
+
+/* Center */
+.aligncenter,
+.aligncenter img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.alignleft {
+    /*rtl:ignore*/
+    float: right;
+    margin: 0.3rem 2rem 2rem 2rem;
+}
+
+.alignright {
+    /*rtl:ignore*/
+    float: left;
+    margin: 0.3rem 2rem 2rem 2rem;
+}
+
+
+/*===============================
+Archives
+================================*/
+
+/* Archive Header ---------------------------- */
+
+#archive-title {
+    margin: 0;
+    text-shadow: -2px 2px #7b93a7;
+}
+
+/*===============================
+Post and Page Singles
+================================*/
+
+/* Post Header ------------------------------- */
+.entry-categories-inner > a {
+    padding: 0.375rem 1.25rem;
+    margin: 0 0.375rem;
+}
+
+.single .entry-title {
+    text-shadow: -2px 2px #475a69;
+}
+
+.entry-header-inner,
+.single .entry-title {
+    margin: auto;
+}
+
+
+/*===============================
+Entry Content
+================================*/
+
+.blog-center .entry-content {
+    margin: 0 auto;
+}
+
+.blog-classic-left .entry-header,
+.blog-classic-left .entry-content,
+.blog-classic-right .entry-header,
+.blog-classic-right .entry-content {
+    text-align: right;
+}
+
+.blog-classic-left .hentry .section-inner,
+.blog-classic-right .hentry .section-inner,
+.blog-classic-left .post-meta-wrapper,
+.blog-classic-right .post-meta-wrapper {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.blog-classic-left .post-meta-single-top .post-meta,
+.blog-classic-right .post-meta-single-top .post-meta {
+    justify-content: start;
+}
+
+.blog-classic-left .entry-header,
+.blog-classic-left .featured-media,
+.blog-classic-left .post-meta-wrapper,
+.blog-classic-right .entry-header,
+.blog-classic-right .featured-media,
+.blog-classic-right .post-meta-wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Single Posts */
+.single-left .entry-content,
+.single-right .entry-content,
+.single-full .entry-content,
+.single.template-cover .entry-footer {
+    margin: 0 auto;
+}
+
+/* Single Entry Footer */
+.single .entry-footer {
+    margin: 3rem 0 0;
+    padding: 3rem 0 0;
+}
+
+/*===============================
+Post Meta
+================================*/
+
+.post-meta-wrapper {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-meta {
+    margin: -1rem -2rem 0 0;
+}
+
+.single .post-meta {
+    text-shadow: -1px 1px #475a69;
+}
+
+.post-meta-single-bottom .post-meta {
+    margin: 0 -1rem 0 0;
+}
+
+.post-meta li {
+    flex-shrink: 0;
+    margin: 1rem 1.25rem 0 0;
+}
+
+.blog-classic-left .post-meta li:first-of-type,
+.blog-classic-right .post-meta li:first-of-type {
+    margin-right: 1rem;
+}
+
+.post-meta .meta-icon {
+    flex-shrink: 0;
+    margin-left: 0.5rem;
+}
+
+/*===============================
+Featured Media
+================================*/
+.featured-media {
+    margin-top: 3rem;
+    position: relative;
+}
+
+.singular .featured-media-inner {
+    right: calc(50% - 50vw);
+}
+
+.singular .featured-media::before {
+    bottom: 50%;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.featured-media img {
+    box-shadow: 0 3px 12px -3px rgba(0, 0, 0, .22), 0 22px 27px -20px rgba(0, 0, 0, .32);
+    margin: 0 auto;
+}
+
+.featured-media figcaption {
+    margin: 1.5rem auto 0 auto;
+}
+
+/*===============================
+Comments
+================================*/
+
+/* Comment Headers ----------------------------- */
+
+.comments-wrapper {
+    padding: 3rem 0.938rem;
+}
+
+.comment-reply-title {
+    margin: 0;
+    text-align: right;
+}
+
+.comment .comment {
+    padding-right: 5%;
+}
+
+.comment-meta {
+    padding-right: 4.5rem;
+}
+
+.hide-avatars .comment-meta {
+    padding-right: 0;
+}
+
+.comment-meta .avatar {
+    right: 0;
+}
+
+
+/* Comment Content ------------------------- */
+.comment-content.entry-content .alignleft {
+    /*rtl:ignore*/
+    margin-right: 0;
+}
+
+.comment-content.entry-content .alignright {
+    /*rtl:ignore*/
+    margin-left: 0;
+}
+
+/* Comment Footer --------------------------- */
+
+.comment-footer-meta {
+    justify-content: flex-start;
+    margin: 1.5rem -1.5rem 0 0;
+}
+
+.comment-footer-meta > * {
+    margin: 0 1.5rem 1rem 0;
+}
+
+.comment-reply-link {
+    padding: 0.25rem 1rem;
+}
+
+
+/* Pingbacks & Trackbacks ------------------------- */
+
+.pingback .comment-meta,
+.trackback .comment-meta {
+    padding-right: 0;
+}
+
+
+/* Comments Pagination ---------------------------- */
+
+.comments-pagination.only-next {
+    justify-content: flex-end;
+}
+
+.comments-pagination .prev {
+    right: 0;
+}
+
+.comments-pagination .next {
+    left: 0;
+    text-align: left;
+}
+
+/* Comment Form ----------------------- */
+
+.comment-respond .comment-notes,
+.comment-respond .logged-in-as {
+    margin: 0 0 3rem 0;
+}
+
+.comment-respond p {
+    margin-bottom: 2rem;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* Reply Respond ---------------------------- */
+
+.comments .comment-respond {
+    padding: 3rem 0 0;
+}
+
+.comments .comment-respond .comment-reply-title,
+.comments .comment-respond .comment-notes,
+.comments .comment-respond .logged-in-as {
+    text-align: right;
+}
+
+.comment-reply-title small {
+    margin: 0.5rem 0 0 0;
+}
+
+/*===============================
+Sidebars
+================================*/
+
+#breadcrumb-sidebar {
+    margin: auto;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+#bottom-wrapper {
+    padding: 3rem 0 2rem;
+}
+
+/*===============================
+Widgets
+================================*/
+
+/* Base List Widget -------------------------- */
+
+.widget_archive ul,
+.widget_categories ul,
+.widget_pages ul,
+.widget_meta ul,
+.widget_nav_menu ul,
+.widget_recent_comments ul,
+.widget_recent_entries ul,
+.widget_rss ul {
+    margin: 0;
+}
+
+.widget_archive li,
+.widget_categories li,
+.widget_pages li,
+.widget_meta li,
+.widget_nav_menu li {
+    margin: 0.3rem 0;
+}
+
+.widget_archive li li,
+.widget_categories li li,
+.widget_pages li li,
+.widget_meta li li,
+.widget_nav_menu li li {
+    margin-right: 1.5rem;
+}
+
+.widget_archive li:not(:last-child),
+.widget_pages li:not(:last-child),
+.widget_nav_menu li:not(:last-child),
+.widget_categories li:not(:last-child),
+.widget_recent_comments li:not(:last-child),
+.widget_recent_entries li:not(:last-child) {
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Widget: Menu and Pages-------------------------- */
+.widget_nav_menu ul ul li,
+.widget_pages ul ul li {
+    padding-right: 0;
+}
+
+/* Widget: Calendar -------------------------- */
+.calendar_wrap th,
+.calendar_wrap td {
+    padding: 2.5% 2.5% 1.75% 2.5%;
+}
+
+.calendar_wrap tfoot #prev {
+    text-align: right;
+}
+
+.calendar_wrap tfoot #next {
+    text-align: left;
+}
+
+/* Widget: Gallery --------------------------- */
+
+.widget_media_gallery .gallery {
+    margin: 0 -0.4em -0.8em -0.4em;
+}
+
+.widget_media_gallery .gallery-item {
+    margin: 0 0 0.8em 0;
+    padding: 0 0.4em;
+}
+
+/* Widget: Nav Menu -------------------------- */
+
+.widget_nav_menu .widget-content > div > ul {
+    margin-right: 0;
+}
+
+/* Widget: Search ---------------------------- */
+.search-form input.search-field {
+    border-left: none;
+    padding: 0.875rem;
+	border-right-style: solid;
+    border-width: 1px;
+    border-right-color: #ededed;
+}
+
+/* Widget: Tag Cloud ------------------------- */
+.widget_tag_cloud a,
+.widget_tag_cloud a:visited {
+    margin: 0 0 5px 3px;
+    padding: 0 1rem;
+}
+
+/* Author Bio -------------------------------- */
+.hide-avatars .author-bio {
+    padding-right: 0;
+}
+
+.author-bio .author-title-wrapper {
+    margin: 0 0 1rem 0;
+}
+
+.author-bio .avatar {
+    margin-left: 1.5rem;
+	margin-right: auto;
+}
+
+/*===============================
+Pagination
+================================*/
+.pagination-wrapper {
+    margin: 2rem auto 3rem;
+    padding: 0 15px;
+}
+
+.pagination .nav-links {
+    margin: -1.5rem -2.5rem 0 0;
+}
+
+.nav-links > * {
+    margin: 1.5rem 0.25rem 0 0.25rem;
+}
+
+.pagination .dots {
+    transform: translateY(-0.3em);
+}
+
+.prev.page-numbers,
+.next.page-numbers {
+    padding: 0 1rem;
+}
+
+/* Single Pagination ------------------------- */
+
+.pagination-single,
+.single.template-cover .pagination-single {
+    margin: 0 auto 4rem;
+    padding: 0 15px;
+}
+
+.pagination-single a .arrow {
+    margin-left: 1rem;
+}
+
+/*===============================
+Site Footer
+================================*/
+.footer-copyright {
+    margin: 0;
+    padding: 0 0.5rem;
+}
+
+/* Footer Menu ---------------------------- */
+
+.footer-menu {
+    margin: 2rem 0;
+}
+
+.has-social-menu .footer-menu {
+    margin:  0;
+}
+
+.footer-menu li {
+    margin: 0.25em 0 0 0;
+}
+
+.footer-menu a {
+    padding: 0 0.5rem;
+}
+
+/* Footer Social Menu ---------------------- */
+
+ul.footer-social {
+    margin: 0 0 1rem;
+}
+
+ul.footer-social li {
+    margin: 0 3px;
+}
+
+/*===============================
+Form Styles
+================================*/
+
+legend {
+    padding: 0 1rem;
+}
+
+label {
+    margin: 0 0 0.5rem 0;
+}
+
+label.inline,
+input[type="checkbox"] + label {
+    margin-right: 0.5rem;
+}
+
+
+input[type="checkbox"]:checked::before {
+    margin: -0.1875rem -0.25rem 0 0;
+}
+
+input[type="search"]:focus {
+    outline-offset: -4px;
+}
+
+/*===============================
+Media Queries
+================================*/
+
+@media (min-width: 700px) {
+
+	/* Entry Content */
+	.template-left .entry-content,
+	.single-left .entry-content {
+		padding-right: 2rem;
+		padding-left: 0;
+	}	
+	.template-right .entry-content,
+	.single-right .entry-content {
+		padding-left: 2rem;
+		padding-right: 0;
+	}
+	
+    /* Header Toggles ------------------------ */
+    .search-toggle {
+        right: 2rem;
+    }
+
+    .nav-toggle {
+        left: 2rem;
+		right: auto;
+    }
+
+    /* Menu Modal ---------------------------- */
+    button.close-nav-toggle .toggle-text {
+        margin-left: 2.1rem;
+    }
+
+    .modal-menu {
+        right: auto;
+    }
+
+    .modal-menu ul li {
+        border-right-color: transparent;
+    }
+
+    .menu-copyright {
+        margin-left: 4rem;
+    }
+
+    /* Template: Cover Template -------------- */
+    .cover-header-inner {
+        padding: 18rem 0 8rem 0;
+    }
+
+    .custom-header .cover-header-inner {
+        padding: 9rem 0;
+    }
+	
+    .alignleft {
+        /*rtl:ignore*/
+        margin: 0.3rem 0 2rem 2rem;
+    }
+
+    .alignright {
+        /*rtl:ignore*/
+        margin: 0.3rem 2rem 2rem 0;
+    }
+
+    /* SINGLE PAGINATION */
+    .pagination-single {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .template-cover .pagination-single {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .pagination-single.only-next .pagination-single-inner {
+        justify-content: flex-end;
+    }
+
+    .pagination-single a .arrow {
+        margin: 0 0 0 1rem;
+    }
+
+    .pagination-single .next-post {
+        flex-direction: row-reverse;
+        text-align: left;
+    }
+
+    /* Display the full text for Newer and Older Posts. */
+    .pagination .nav-links {
+        margin: -2.5rem -4rem 0 0;
+    }
+
+    /* AUTHOR BIO */
+    .author-bio {
+        padding-right: 7.5rem;
+    }
+
+    .author-bio .avatar {
+        right: 0;
+		left: auto;
+    }
+}
+
+@media (min-width: 1000px) {
+   
+    .header-titles-wrapper {
+        margin-left: 2rem;
+        text-align: right;
+    }
+
+    .header-titles {
+        justify-content: flex-start;
+        margin: -1rem 0 0 0;
+    }
+
+    .header-titles .site-title,
+    .header-titles .site-logo,
+    .header-titles .site-description {
+        margin: 1rem 1rem 0 0;
+    }
+
+
+    /* HEADER TOGGLES */
+	.header-inner .toggle-wrapper::before {
+		left: auto;
+		top: calc(50% - 1rem);
+	}
+    .primary-menu-wrapper + .header-toggles {
+        margin-right: 3rem;
+    }
+
+    .header-toggles {
+        margin-left: -3rem;
+    }
+
+    .header-inner .toggle {
+        bottom: auto;
+        right: auto;
+        left: auto;
+        top: auto;
+    }
+
+    .toggle-inner .toggle-text {
+        right: -0.063rem;
+        left: 0;
+    }
+
+    .header-toggles:only-child .toggle-inner .toggle-text {
+        padding-left: 20px;
+    }
+
+    /* Menu Modal ---------------------------- */
+    .menu-modal {
+        justify-content: flex-end;
+        padding: 0;
+        transition: background-color 0.3s ease-in, right 0s 0.3s, left 0s 0.3s;
+    }
+
+    .menu-wrapper.section-inner {
+        padding: 0 2rem;
+    }
+
+    .menu-modal-inner {
+        box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.1);
+        padding: 0;
+        transform: translateX(-20rem);
+        transition: transform 0.2s ease-in, opacity 0.2s ease-in;
+    }
+
+    .menu-modal.active .menu-modal-inner {
+        transform: translateX(0);
+    }
+
+    .menu-bottom .social-menu {
+        justify-content: flex-start;
+    }
+
+    /* Footer menu group */
+    .footer-inner,
+    .footer-copyright {
+        text-align: right;
+    }
+
+    ul.footer-social {
+        justify-content: flex-start;
+    }
+
+    .footer-credits {
+        display: flex;
+        justify-content: right;
+    }
+
+    .to-the-top {
+        justify-content: flex-end;
+        margin: 0;
+    }
+
+    /* Site Pagination ----------------------- */
+     .pagination .prev {
+        margin: 0 0 0 auto;
+    }
+
+    .pagination .next {
+        text-align: left;
+        margin: 0 auto 0 0;
+    }
+
+}
+
+@media (min-width: 1220px) {
+    /* PRIMARY MENU */
+
+    ul.primary-menu {
+        margin: -0.8rem -2.5rem 0 0;
+    }
+
+    .primary-menu > li {
+        margin: 0.8rem 2rem 0 0;
+    }
+
+    /* HEADER TOGGLES */
+
+    .primary-menu-wrapper + .header-toggles {
+        margin-right: 2rem;
+    }
+
+    .header-toggles {
+        margin-left: 0;
+    }
+
+    /* Paginagion */
+    .pagination-single {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
