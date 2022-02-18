@@ -21,7 +21,7 @@ body {
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(236, 18, 18, 0);
 }
 
 hr {
@@ -170,11 +170,11 @@ sup {
 }
 
 a {
-  color: #5533ff;
+  color: #ec1212;
   text-decoration: underline;
 }
 a:hover {
-  color: #4429cc;
+  color: #bd0e0e;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -445,7 +445,7 @@ progress {
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #5533ff;
+  --bs-primary: #ec1212;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -453,7 +453,7 @@ progress {
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 85, 51, 255;
+  --bs-primary-rgb: 236, 18, 18;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -462,7 +462,7 @@ progress {
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
-  --bs-black-rgb: 0, 0, 0;
+  --bs-black-rgb: 236, 18, 18;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -480,11 +480,11 @@ progress {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
   --bs-table-striped-color: #212529;
-  --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+  --bs-table-striped-bg: rgba(236, 18, 18, 0.05);
   --bs-table-active-color: #212529;
-  --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+  --bs-table-active-bg: rgba(236, 18, 18, 0.1);
   --bs-table-hover-color: #212529;
-  --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+  --bs-table-hover-bg: rgba(236, 18, 18, 0.075);
   width: 100%;
   margin-bottom: 1rem;
   color: #212529;
@@ -542,87 +542,87 @@ progress {
 }
 
 .table-primary {
-  --bs-table-bg: #ddd6ff;
-  --bs-table-striped-bg: #d2cbf2;
-  --bs-table-striped-color: #000;
-  --bs-table-active-bg: #c7c1e6;
-  --bs-table-active-color: #000;
-  --bs-table-hover-bg: #ccc6ec;
-  --bs-table-hover-color: #000;
-  color: #000;
-  border-color: #c7c1e6;
+  --bs-table-bg: #fbd0d0;
+  --bs-table-striped-bg: #fac7c7;
+  --bs-table-striped-color: #ec1212;
+  --bs-table-active-bg: #fabdbd;
+  --bs-table-active-color: #ec1212;
+  --bs-table-hover-bg: #fac2c2;
+  --bs-table-hover-color: #ec1212;
+  color: #ec1212;
+  border-color: #fabdbd;
 }
 
 .table-secondary {
   --bs-table-bg: #e2e3e5;
-  --bs-table-striped-bg: #d7d8da;
-  --bs-table-striped-color: #000;
-  --bs-table-active-bg: #cbccce;
-  --bs-table-active-color: #000;
-  --bs-table-hover-bg: #d1d2d4;
-  --bs-table-hover-color: #000;
-  color: #000;
-  border-color: #cbccce;
+  --bs-table-striped-bg: #e3d9da;
+  --bs-table-striped-color: #ec1212;
+  --bs-table-active-bg: #e3ced0;
+  --bs-table-active-color: #ec1212;
+  --bs-table-hover-bg: #e3d3d5;
+  --bs-table-hover-color: #ec1212;
+  color: #ec1212;
+  border-color: #e3ced0;
 }
 
 .table-success {
   --bs-table-bg: #d1e7dd;
-  --bs-table-striped-bg: #c7dbd2;
-  --bs-table-striped-color: #000;
-  --bs-table-active-bg: #bcd0c7;
-  --bs-table-active-color: #000;
-  --bs-table-hover-bg: #c1d6cc;
-  --bs-table-hover-color: #000;
-  color: #000;
-  border-color: #bcd0c7;
+  --bs-table-striped-bg: #d2dcd3;
+  --bs-table-striped-color: #ec1212;
+  --bs-table-active-bg: #d4d2c9;
+  --bs-table-active-color: #ec1212;
+  --bs-table-hover-bg: #d3d7ce;
+  --bs-table-hover-color: #ec1212;
+  color: #ec1212;
+  border-color: #d4d2c9;
 }
 
 .table-info {
   --bs-table-bg: #cff4fc;
-  --bs-table-striped-bg: #c5e8ef;
-  --bs-table-striped-color: #000;
-  --bs-table-active-bg: #badce3;
-  --bs-table-active-color: #000;
-  --bs-table-hover-bg: #bfe2e9;
-  --bs-table-hover-color: #000;
-  color: #000;
-  border-color: #badce3;
+  --bs-table-striped-bg: #d0e9f0;
+  --bs-table-striped-color: #ec1212;
+  --bs-table-active-bg: #d2dde5;
+  --bs-table-active-color: #ec1212;
+  --bs-table-hover-bg: #d1e3ea;
+  --bs-table-hover-color: #ec1212;
+  color: #ec1212;
+  border-color: #d2dde5;
 }
 
 .table-warning {
   --bs-table-bg: #fff3cd;
-  --bs-table-striped-bg: #f2e7c3;
-  --bs-table-striped-color: #000;
-  --bs-table-active-bg: #e6dbb9;
-  --bs-table-active-color: #000;
-  --bs-table-hover-bg: #ece1be;
-  --bs-table-hover-color: #000;
-  color: #000;
-  border-color: #e6dbb9;
+  --bs-table-striped-bg: #fee8c4;
+  --bs-table-striped-color: #ec1212;
+  --bs-table-active-bg: #fdddba;
+  --bs-table-active-color: #ec1212;
+  --bs-table-hover-bg: #fee2bf;
+  --bs-table-hover-color: #ec1212;
+  color: #ec1212;
+  border-color: #fdddba;
 }
 
 .table-danger {
   --bs-table-bg: #f8d7da;
-  --bs-table-striped-bg: #eccccf;
-  --bs-table-striped-color: #000;
-  --bs-table-active-bg: #dfc2c4;
-  --bs-table-active-color: #000;
-  --bs-table-hover-bg: #e5c7ca;
-  --bs-table-hover-color: #000;
-  color: #000;
-  border-color: #dfc2c4;
+  --bs-table-striped-bg: #f7cdd0;
+  --bs-table-striped-color: #ec1212;
+  --bs-table-active-bg: #f7c3c6;
+  --bs-table-active-color: #ec1212;
+  --bs-table-hover-bg: #f7c8cb;
+  --bs-table-hover-color: #ec1212;
+  color: #ec1212;
+  border-color: #f7c3c6;
 }
 
 .table-light {
   --bs-table-bg: #f8f9fa;
-  --bs-table-striped-bg: #ecedee;
-  --bs-table-striped-color: #000;
-  --bs-table-active-bg: #dfe0e1;
-  --bs-table-active-color: #000;
-  --bs-table-hover-bg: #e5e6e7;
-  --bs-table-hover-color: #000;
-  color: #000;
-  border-color: #dfe0e1;
+  --bs-table-striped-bg: #f7edee;
+  --bs-table-striped-color: #ec1212;
+  --bs-table-active-bg: #f7e2e3;
+  --bs-table-active-color: #ec1212;
+  --bs-table-hover-bg: #f7e8e9;
+  --bs-table-hover-color: #ec1212;
+  color: #ec1212;
+  border-color: #f7e2e3;
 }
 
 .table-dark {
@@ -943,12 +943,12 @@ progress {
 
 .has-primary-color,
 .has-primary-color:visited {
-  color: #5533ff;
+  color: #ec1212;
 }
 
 .has-primary-background-color {
-  background-color: #5533ff;
-  border-color: #5533ff;
+  background-color: #ec1212;
+  border-color: #ec1212;
 }
 
 .has-secondary-color,

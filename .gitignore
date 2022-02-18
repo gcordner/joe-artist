@@ -1,1 +1,10 @@
 uploads/
+themes/understrap/.browserslistrc
+themes/understrap/.editorconfig
+themes/understrap/.jscsrc
+themes/understrap/.jshintignore
+themes/understrap/.travis.yml
+themes/understrap/composer.json
+themes/understrap/composer.lock
+themes/understrap/node_modules/
+themes/understrap/phpcs.xml.dist
