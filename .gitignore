@@ -8,3 +8,11 @@ themes/understrap/composer.json
 themes/understrap/composer.lock
 themes/understrap/node_modules/
 themes/understrap/phpcs.xml.dist
+themes/understrap-child/.sass-cache
+themes/understrap-child/bower_components
+themes/understrap-child/node_modules
+themes/understrap-child/understrap.zip
+themes/understrap-child/dist
+themes/understrap-child/dist-product
+themes/understrap-child/npm-debug.log
+themes/understrap-child/vendor/
