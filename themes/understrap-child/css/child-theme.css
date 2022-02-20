@@ -15938,6 +15938,14 @@ body {
   border-color: #212529;
 }
 
+.dark-gray-background {
+  background-color: #3B3B3B;
+}
+
+.has-gray-background-color {
+  background-color: red !important;
+}
+
 figure.wp-block-image {
   display: block;
 }
