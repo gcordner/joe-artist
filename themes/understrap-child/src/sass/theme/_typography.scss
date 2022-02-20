@@ -1,0 +1,40 @@
+.navbar-brand {
+    font-family: "Modern735BT", 'Times New Roman', Times, serif;
+    line-height: 1.8em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#main-nav {
+    h1 {
+        font-family: "Modern735BT", 'Times New Roman', Times, serif;
+        line-height: 1.8em;
+        font-size: 2rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    a {
+        text-decoration: none;
+        color: $tattoo-05;
+        &:hover {
+            color: $socal-05;
+            border-bottom: 2px solid $socal-05;
+        }
+        &:active {
+            color: $socal-05;
+            border-bottom: 2px solid $socal-05;
+        }
+    }
+}
+
+.promo-heading {
+    text-transform: uppercase;
+    font-family: "Modern735BT" !important;
+    font-size: 3rem !important;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+}

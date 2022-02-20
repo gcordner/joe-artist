@@ -9,6 +9,10 @@
 defined( 'ABSPATH' ) || exit;
 
 
+// Array of files to include.
+$understrapchild_includes = array(
+	'/widgets.php',                         // Register widget area.
+	);
 
 /**
  * Removes the parent themes stylesheet and scripts from inc/enqueue.php

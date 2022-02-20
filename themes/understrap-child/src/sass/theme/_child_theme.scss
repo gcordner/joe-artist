@@ -1,0 +1,19 @@
+body {
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.concert {
+    background-color: $tattoo-05;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    h2 {
+        text-align: center;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+}
