@@ -78,6 +78,8 @@ https://www.rawpixel.com/image/3284123/free-photo-image-jewelry-bouquet-floral-b
 https://www.rawpixel.com/image/3302967/free-photo-image-wedding-bouquets-and-rings-flowers-arrangement-wedding-bouquet
 
 == Changelog ==
+21 February 2022 - Vesion 1.2.0
+- fix for the 404 page
 9 February 2022 - Vesion 1.1.9
 - added style support for the WooBuilder and Storefront Blocks
 26 January 2022 - Vesion 1.1.6

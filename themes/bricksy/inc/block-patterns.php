@@ -81,6 +81,7 @@ function bricksy_register_block_patterns() {
 		'page-wedding-front',
 		'page-food-front',
 		'page-fashion-front',
+		'hidden-404',
 	);
 
 	/**
