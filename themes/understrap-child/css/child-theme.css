@@ -15674,6 +15674,9 @@ body {
   font-weight: 300;
   font-size: 1.2rem;
 }
+body a {
+  text-decoration: none !important;
+}
 
 .joeartist-container {
   max-width: 1000px !important;
@@ -15758,6 +15761,74 @@ footer .wp-block-columns {
   margin-bottom: 0 !important;
 }
 
+.more {
+  margin-top: 15px;
+}
+
+/* CSS */
+.button-more {
+  margin: auto;
+  background-color: #0D0D0D;
+  border: 0 solid #012326;
+  box-sizing: border-box;
+  color: #BAD9D9;
+  display: flex;
+  font-family: "Modern735BT", "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: 0.75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  -webkit-text-decoration: none #000000 solid;
+  text-decoration: none #000000 solid;
+  width: 100%;
+  max-width: 350px;
+  position: relative;
+  cursor: pointer;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-more a {
+  text-decoration: none !important;
+}
+
+.button-more:focus {
+  outline: 0;
+}
+
+.button-more:hover {
+  text-decoration: underline;
+  color: #BAD9D9;
+}
+
+.button-more:after {
+  content: "";
+  position: absolute;
+  border: 1px solid #365956;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.button-more:hover:after {
+  bottom: 1px;
+  left: 1px;
+}
+
+@media (min-width: 768px) {
+  .button-more {
+    padding: 0.75rem 3rem;
+    font-size: 1.5rem;
+  }
+}
 .navbar-brand {
   font-family: "Modern735BT", "Times New Roman", Times, serif;
   line-height: 1.8em;
