@@ -15598,16 +15598,6 @@ figure.woocommerce-product-gallery__wrapper {
   display: block;
 }
 
-/* karla-200 - latin */
-@font-face {
-  font-family: "Karla";
-  font-style: normal;
-  font-weight: 200;
-  src: url("../fonts/karla-v15-latin-200.eot");
-  /* IE9 Compat Modes */
-  src: local(""), url("../fonts/karla-v15-latin-200.eot?#iefix") format("embedded-opentype"), url("../fonts/karla-v15-latin-200.woff2") format("woff2"), url("../fonts/karla-v15-latin-200.woff") format("woff"), url("../fonts/karla-v15-latin-200.ttf") format("truetype"), url("../fonts/karla-v15-latin-200.svg#Karla") format("svg");
-  /* Legacy iOS */
-}
 /* Modern735BT */
 @font-face {
   font-family: "Modern735BT";
@@ -15618,6 +15608,17 @@ figure.woocommerce-product-gallery__wrapper {
   src: url("../fonts/Modern735BT-RomanA.woff2");
   /* IE9 Compat Modes */
   src: local(""), url("../fonts/Modern735BT-RomanA.woff2") format("woff2"), url("../fonts/Modern735BT-RomanA.woff2") format("woff2");
+}
+/* Abuget */
+@font-face {
+  font-family: "Abuget";
+  font-weight: 200 900;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url("../fonts/Abuget.woff2");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Abuget.woff2") format("woff2"), url("../fonts/Abuget.woff2") format("woff2");
 }
 /* roboto-condensed-300 - latin */
 @font-face {
@@ -15851,6 +15852,21 @@ h2, .h2 {
 
 h3, .h3 {
   font-family: "Modern735BT", "Times New Roman", Times, serif;
+}
+
+#new-release h2, #new-release .h2 {
+  color: #F2F2F2 !important;
+  font-size: 4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 0;
+}
+#new-release p {
+  font-family: "Abuget", Arial, Helvetica, sans-serif;
+  color: #c06445;
+  font-size: 3rem;
+  font-weight: 800;
 }
 
 #main-nav h1, #main-nav .h1 {
