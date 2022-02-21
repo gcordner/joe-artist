@@ -22,10 +22,5 @@ defined( 'ABSPATH' ) || exit;
 
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-
-		<?php understrap_edit_post_link(); ?>
-
-	</footer><!-- .entry-footer -->
-
+	
 </article><!-- #post-## -->
