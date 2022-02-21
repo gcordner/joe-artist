@@ -15689,6 +15689,47 @@ body {
   text-transform: uppercase;
 }
 
+#wrapper-footer {
+  background-color: #732424;
+  color: #F2F2F2;
+}
+#wrapper-footer a {
+  color: #F2F2F2;
+  text-decoration: none;
+}
+#wrapper-footer a:hover {
+  text-decoration: underline;
+}
+#wrapper-footer a p {
+  margin: 1rem 0 1rem 0 !important;
+}
+
+#wrapper-footer-full {
+  background-color: #732424;
+  color: #F2F2F2;
+}
+#wrapper-footer-full a {
+  color: #F2F2F2;
+  text-decoration: none;
+}
+#wrapper-footer-full a:hover {
+  text-decoration: underline;
+}
+
+.footer-credits p {
+  font-size: 1rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+}
+.footer-credits .wp-block-social-links {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+footer .wp-block-columns {
+  margin-bottom: 0 !important;
+}
+
 .navbar-brand {
   font-family: "Modern735BT", "Times New Roman", Times, serif;
   line-height: 1.8em;

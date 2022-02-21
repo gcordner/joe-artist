@@ -17,3 +17,49 @@ body {
         text-transform: uppercase;
     }
 }
+
+//** FOOTER **//  
+#wrapper-footer {
+    background-color: $joea-04;
+    color: $joea-05;
+    a {
+        color: $joea-05;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+        p {
+            margin: 1rem 0 1rem 0 !important;
+        }
+    }
+}
+
+#wrapper-footer-full {
+    background-color: $joea-04;
+    color: $joea-05;
+    a {
+        color: $joea-05;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.footer-credits {
+    p {
+        font-size: 1rem;
+        margin-top: .75rem;
+        margin-bottom: 0;
+    }
+    .wp-block-social-links {
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    .wp-block-columns {
+        margin-bottom: 0 !important;
+    }
+}
