@@ -4,6 +4,13 @@ body {
     font-size: 1.2rem;
 }
 
+//** This is the container for all non-hero body content **//  
+.joeartist-container {
+    max-width: 1000px !important;
+    margin: auto;
+    padding: 3rem 3rem 2rem 3rem;
+}
+
 .concert {
     background-color: $tattoo-05;
     text-align: center;
@@ -16,6 +23,32 @@ body {
         font-size: 1.5rem;
         text-transform: uppercase;
     }
+}
+
+//** YOUTUBE AREA **//  
+.sb_youtube_header {
+    display: none;
+}
+
+.sby-owl-nav {
+    .sby-owl-prev {
+        margin-left: -40px;
+    }
+    .sby-owl-next {
+        margin-right: -40px;
+    }
+    >div {
+        color: $socal-01;
+        background: transparent;
+        font-size: 2rem;
+        font-weight: 100 !important;
+        margin-top: -4.5rem;
+    }
+}
+
+//** SPOTIFY BOX **// 
+.spotify-column {
+    padding: 0 20px 20px 0;
 }
 
 //** FOOTER **//  
